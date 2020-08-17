@@ -1,14 +1,13 @@
 //
 //  ViewController.swift
-//  SwiftR iOS Demo
+//  SignalRDemo
 //
-//  Created by Adam Hartford on 4/16/15.
-//  Copyright (c) 2015 Adam Hartford. All rights reserved.
+//  Created by Radya Albasha on 8/17/20.
+//  Copyright © 2020 Devexy. All rights reserved.
 //
 
 import UIKit
 import SwiftR
-
 
 class ViewController: UIViewController {
     

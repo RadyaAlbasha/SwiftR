@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185003EDF1CDB6A6062F0E532497D8DB /* Pods-SignalRDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E609E4163F212784C2C90123ADCDD7BD /* Pods-SignalRDemo-dummy.m */; };
+		1C5C27F1A29933B4A326A6F251144FE5 /* jquery.signalr-2.0.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = B08B1F6CF946B6562E13FF55DA9BBCAF /* jquery.signalr-2.0.0.min.js */; };
+		3283D5C7B9BEA100330E84B5E9CD99A6 /* jquery.signalr-2.1.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 5DB6E1A124991A1C9AE289E4125760FE /* jquery.signalr-2.1.0.min.js */; };
+		3A16828937F0BFD4FA8ED4FA8ECA9E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5717F19619075389F35908C5132F74F9 /* SwiftR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FEC575B325872334BB6ADA12EAF414 /* SwiftR-dummy.m */; };
+		5E94FF8EE96E7EDF1EB571F53C78D7A9 /* SwiftR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2219FF95367C3DA03F99D7F9AE70E7B7 /* SwiftR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		654524B08BF8C060A98A8BECBC47A054 /* jquery.signalr-2.2.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1DD67E694324A80F620CDB94E003FD62 /* jquery.signalr-2.2.2.min.js */; };
+		7231CFEF9F2099717FD80306B1A9B90C /* SwiftR.js in Resources */ = {isa = PBXBuildFile; fileRef = ECE5F06CFEC261AA46B871C5286C830C /* SwiftR.js */; };
+		7AE631E7BD7857BA3A4D70A964EAAF16 /* jquery.signalr-2.2.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EF362C59EEA06A86B581619EAC84491F /* jquery.signalr-2.2.1.min.js */; };
+		80BB7A9892587E36D03F523A11DD6560 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		880003174BD0D61A602862FDB6D567EE /* jquery.signalr-2.1.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 51A38E014F00D081C395DEE274E0250C /* jquery.signalr-2.1.2.min.js */; };
+		9922A590016E02B731A5E007E989163E /* jquery.signalr-2.0.2.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 575A064180EB374659EDA68E9068F1F7 /* jquery.signalr-2.0.2.min.js */; };
+		A641B3E68680C88AE7825601DAE1F035 /* Pods-SignalRDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE5C021EF7DD78F6B80ECD8B11819B4E /* Pods-SignalRDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEBDE34E1832CE087C4893D7B58A2337 /* jquery.signalr-2.0.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EA2AF98346D3F98AEDCDA56A15AB739F /* jquery.signalr-2.0.1.min.js */; };
+		B6747C417633289302573152E535CDCB /* jquery.signalr-2.1.1.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 796204D29F62AAB5B10EC9CBD1326EB1 /* jquery.signalr-2.1.1.min.js */; };
+		BABF6C2C17CCBD71CBDFF89F1A82911A /* jquery-2.1.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 93B9BF63DC827755211CBC55197ABECE /* jquery-2.1.3.min.js */; };
+		C70172AECCB883A06069D6CB4F56C832 /* SwiftR.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8E5D5A60A2564B6F5190F372BF659 /* SwiftR.swift */; };
+		D456ED074D0CC3CE5F00FB1566DE8CCD /* jquery.signalr-2.2.0.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 84F59363245E63B41D2F4F55F5BF1AAA /* jquery.signalr-2.2.0.min.js */; };
+		DA573B3A3DB375420F51C120CC823B3B /* jquery.signalr-2.0.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 7DA8C550C81B8CDEA95D59B2BB6DDA41 /* jquery.signalr-2.0.3.min.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98E1F0DDB8792437042668A19FACC918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E242525A17C06AAB71CFB6A089530E6F;
+			remoteInfo = SwiftR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		156A27559AD493DBEC162F5AE59A2088 /* Pods_SignalRDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SignalRDemo.framework; path = "Pods-SignalRDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD67E694324A80F620CDB94E003FD62 /* jquery.signalr-2.2.2.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.2.2.min.js"; path = "SwiftR/Web/jquery.signalr-2.2.2.min.js"; sourceTree = "<group>"; };
+		2219FF95367C3DA03F99D7F9AE70E7B7 /* SwiftR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftR-umbrella.h"; sourceTree = "<group>"; };
+		24336DA995A2035D3EE311C54F57BB64 /* Pods-SignalRDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignalRDemo-Info.plist"; sourceTree = "<group>"; };
+		2BDAA2716DBA590A76A72C1808328DFD /* SwiftR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftR.framework; path = SwiftR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		310C8D818679AA3A97F6DA8899BE8BD2 /* Pods-SignalRDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalRDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35FEC575B325872334BB6ADA12EAF414 /* SwiftR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftR-dummy.m"; sourceTree = "<group>"; };
+		3E9AE58916870895F015E440A602B9C9 /* SwiftR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftR-Info.plist"; sourceTree = "<group>"; };
+		51A38E014F00D081C395DEE274E0250C /* jquery.signalr-2.1.2.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.1.2.min.js"; path = "SwiftR/Web/jquery.signalr-2.1.2.min.js"; sourceTree = "<group>"; };
+		53D1EDF6C5505383554B537B46B1EC5B /* Pods-SignalRDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SignalRDemo.release.xcconfig"; sourceTree = "<group>"; };
+		575A064180EB374659EDA68E9068F1F7 /* jquery.signalr-2.0.2.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.0.2.min.js"; path = "SwiftR/Web/jquery.signalr-2.0.2.min.js"; sourceTree = "<group>"; };
+		5A851EFCBB7132B4138FCBADBABB744E /* Pods-SignalRDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SignalRDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DB6E1A124991A1C9AE289E4125760FE /* jquery.signalr-2.1.0.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.1.0.min.js"; path = "SwiftR/Web/jquery.signalr-2.1.0.min.js"; sourceTree = "<group>"; };
+		796204D29F62AAB5B10EC9CBD1326EB1 /* jquery.signalr-2.1.1.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.1.1.min.js"; path = "SwiftR/Web/jquery.signalr-2.1.1.min.js"; sourceTree = "<group>"; };
+		7DA8C550C81B8CDEA95D59B2BB6DDA41 /* jquery.signalr-2.0.3.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.0.3.min.js"; path = "SwiftR/Web/jquery.signalr-2.0.3.min.js"; sourceTree = "<group>"; };
+		84F59363245E63B41D2F4F55F5BF1AAA /* jquery.signalr-2.2.0.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.2.0.min.js"; path = "SwiftR/Web/jquery.signalr-2.2.0.min.js"; sourceTree = "<group>"; };
+		93B9BF63DC827755211CBC55197ABECE /* jquery-2.1.3.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery-2.1.3.min.js"; path = "SwiftR/Web/jquery-2.1.3.min.js"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B08B1F6CF946B6562E13FF55DA9BBCAF /* jquery.signalr-2.0.0.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.0.0.min.js"; path = "SwiftR/Web/jquery.signalr-2.0.0.min.js"; sourceTree = "<group>"; };
+		B5EDD54DA11DC5F42381A72569B136C5 /* Pods-SignalRDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SignalRDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B9D606D03C857660E1F7C572367EF65D /* Pods-SignalRDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SignalRDemo.modulemap"; sourceTree = "<group>"; };
+		C6D8E5D5A60A2564B6F5190F372BF659 /* SwiftR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftR.swift; path = SwiftR/SwiftR.swift; sourceTree = "<group>"; };
+		CF840C542F4DC760FA9D1A2A35243B77 /* SwiftR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftR-prefix.pch"; sourceTree = "<group>"; };
+		DE1C7D14073106A8C990BC27D1FB9235 /* SwiftR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftR.modulemap; sourceTree = "<group>"; };
+		E609E4163F212784C2C90123ADCDD7BD /* Pods-SignalRDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SignalRDemo-dummy.m"; sourceTree = "<group>"; };
+		EA2AF98346D3F98AEDCDA56A15AB739F /* jquery.signalr-2.0.1.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.0.1.min.js"; path = "SwiftR/Web/jquery.signalr-2.0.1.min.js"; sourceTree = "<group>"; };
+		ECE5F06CFEC261AA46B871C5286C830C /* SwiftR.js */ = {isa = PBXFileReference; includeInIndex = 1; name = SwiftR.js; path = SwiftR/Web/SwiftR.js; sourceTree = "<group>"; };
+		EF362C59EEA06A86B581619EAC84491F /* jquery.signalr-2.2.1.min.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "jquery.signalr-2.2.1.min.js"; path = "SwiftR/Web/jquery.signalr-2.2.1.min.js"; sourceTree = "<group>"; };
+		F1FA565522F57C6E871B4889C0749BF6 /* SwiftR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftR.xcconfig; sourceTree = "<group>"; };
+		F4AE79BDCD004DF5003847D4EA5F4A78 /* Pods-SignalRDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SignalRDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE5C021EF7DD78F6B80ECD8B11819B4E /* Pods-SignalRDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SignalRDemo-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DDA49CAC0065603FD156C1F2EB0537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A16828937F0BFD4FA8ED4FA8ECA9E72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF98669736D4368F74363BA87632CD0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BB7A9892587E36D03F523A11DD6560 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E8F8AD2C61C386064DF631E5712695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				156A27559AD493DBEC162F5AE59A2088 /* Pods_SignalRDemo.framework */,
+				2BDAA2716DBA590A76A72C1808328DFD /* SwiftR.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717B3ADEF6FD724975E532868C9FF12D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED13F3B200691155E44DDD25A92E54F /* Pods-SignalRDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F5A013B2CB3C6127679D6CCDB642435 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE628E0D233C284CB255E774843DA63A /* SwiftR */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5501CCC8214598D1841436C151ECE95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93B9BF63DC827755211CBC55197ABECE /* jquery-2.1.3.min.js */,
+				B08B1F6CF946B6562E13FF55DA9BBCAF /* jquery.signalr-2.0.0.min.js */,
+				EA2AF98346D3F98AEDCDA56A15AB739F /* jquery.signalr-2.0.1.min.js */,
+				575A064180EB374659EDA68E9068F1F7 /* jquery.signalr-2.0.2.min.js */,
+				7DA8C550C81B8CDEA95D59B2BB6DDA41 /* jquery.signalr-2.0.3.min.js */,
+				5DB6E1A124991A1C9AE289E4125760FE /* jquery.signalr-2.1.0.min.js */,
+				796204D29F62AAB5B10EC9CBD1326EB1 /* jquery.signalr-2.1.1.min.js */,
+				51A38E014F00D081C395DEE274E0250C /* jquery.signalr-2.1.2.min.js */,
+				84F59363245E63B41D2F4F55F5BF1AAA /* jquery.signalr-2.2.0.min.js */,
+				EF362C59EEA06A86B581619EAC84491F /* jquery.signalr-2.2.1.min.js */,
+				1DD67E694324A80F620CDB94E003FD62 /* jquery.signalr-2.2.2.min.js */,
+				ECE5F06CFEC261AA46B871C5286C830C /* SwiftR.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BE628E0D233C284CB255E774843DA63A /* SwiftR */ = {
+			isa = PBXGroup;
+			children = (
+				C6D8E5D5A60A2564B6F5190F372BF659 /* SwiftR.swift */,
+				A5501CCC8214598D1841436C151ECE95 /* Resources */,
+				F699E3020476A0770E8593AEE89A2E95 /* Support Files */,
+			);
+			name = SwiftR;
+			path = SwiftR;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9F5A013B2CB3C6127679D6CCDB642435 /* Pods */,
+				47E8F8AD2C61C386064DF631E5712695 /* Products */,
+				717B3ADEF6FD724975E532868C9FF12D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED13F3B200691155E44DDD25A92E54F /* Pods-SignalRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B9D606D03C857660E1F7C572367EF65D /* Pods-SignalRDemo.modulemap */,
+				5A851EFCBB7132B4138FCBADBABB744E /* Pods-SignalRDemo-acknowledgements.markdown */,
+				F4AE79BDCD004DF5003847D4EA5F4A78 /* Pods-SignalRDemo-acknowledgements.plist */,
+				E609E4163F212784C2C90123ADCDD7BD /* Pods-SignalRDemo-dummy.m */,
+				B5EDD54DA11DC5F42381A72569B136C5 /* Pods-SignalRDemo-frameworks.sh */,
+				24336DA995A2035D3EE311C54F57BB64 /* Pods-SignalRDemo-Info.plist */,
+				FE5C021EF7DD78F6B80ECD8B11819B4E /* Pods-SignalRDemo-umbrella.h */,
+				310C8D818679AA3A97F6DA8899BE8BD2 /* Pods-SignalRDemo.debug.xcconfig */,
+				53D1EDF6C5505383554B537B46B1EC5B /* Pods-SignalRDemo.release.xcconfig */,
+			);
+			name = "Pods-SignalRDemo";
+			path = "Target Support Files/Pods-SignalRDemo";
+			sourceTree = "<group>";
+		};
+		F699E3020476A0770E8593AEE89A2E95 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C7D14073106A8C990BC27D1FB9235 /* SwiftR.modulemap */,
+				F1FA565522F57C6E871B4889C0749BF6 /* SwiftR.xcconfig */,
+				35FEC575B325872334BB6ADA12EAF414 /* SwiftR-dummy.m */,
+				3E9AE58916870895F015E440A602B9C9 /* SwiftR-Info.plist */,
+				CF840C542F4DC760FA9D1A2A35243B77 /* SwiftR-prefix.pch */,
+				2219FF95367C3DA03F99D7F9AE70E7B7 /* SwiftR-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftR";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44ACAA040D2BB6CB8BFC9FF353FBDCFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E94FF8EE96E7EDF1EB571F53C78D7A9 /* SwiftR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D08C5CFEDB3F2AE1EB2A054A323758 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A641B3E68680C88AE7825601DAE1F035 /* Pods-SignalRDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		965C43245E7BB4F470EC4638C05E63F2 /* Pods-SignalRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91899A3F2F95902DBF09BB67BE3FD10A /* Build configuration list for PBXNativeTarget "Pods-SignalRDemo" */;
+			buildPhases = (
+				A6D08C5CFEDB3F2AE1EB2A054A323758 /* Headers */,
+				FD2F5D132C0F8AE6C176E256FD6AE53A /* Sources */,
+				E8DDA49CAC0065603FD156C1F2EB0537 /* Frameworks */,
+				540812B6F03F36D18D5109668D9D2D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9215FD32953E1E4E43896BC80155B80B /* PBXTargetDependency */,
+			);
+			name = "Pods-SignalRDemo";
+			productName = "Pods-SignalRDemo";
+			productReference = 156A27559AD493DBEC162F5AE59A2088 /* Pods_SignalRDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E242525A17C06AAB71CFB6A089530E6F /* SwiftR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7F375C79A35F59AB9B8CA19DE7F59B /* Build configuration list for PBXNativeTarget "SwiftR" */;
+			buildPhases = (
+				44ACAA040D2BB6CB8BFC9FF353FBDCFB /* Headers */,
+				51D8A054770E4851B21F8E2FF36E8527 /* Sources */,
+				EF98669736D4368F74363BA87632CD0C /* Frameworks */,
+				14DF37FABA35602B629DAF5D985807B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftR;
+			productName = SwiftR;
+			productReference = 2BDAA2716DBA590A76A72C1808328DFD /* SwiftR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 47E8F8AD2C61C386064DF631E5712695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965C43245E7BB4F470EC4638C05E63F2 /* Pods-SignalRDemo */,
+				E242525A17C06AAB71CFB6A089530E6F /* SwiftR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14DF37FABA35602B629DAF5D985807B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BABF6C2C17CCBD71CBDFF89F1A82911A /* jquery-2.1.3.min.js in Resources */,
+				1C5C27F1A29933B4A326A6F251144FE5 /* jquery.signalr-2.0.0.min.js in Resources */,
+				AEBDE34E1832CE087C4893D7B58A2337 /* jquery.signalr-2.0.1.min.js in Resources */,
+				9922A590016E02B731A5E007E989163E /* jquery.signalr-2.0.2.min.js in Resources */,
+				DA573B3A3DB375420F51C120CC823B3B /* jquery.signalr-2.0.3.min.js in Resources */,
+				3283D5C7B9BEA100330E84B5E9CD99A6 /* jquery.signalr-2.1.0.min.js in Resources */,
+				B6747C417633289302573152E535CDCB /* jquery.signalr-2.1.1.min.js in Resources */,
+				880003174BD0D61A602862FDB6D567EE /* jquery.signalr-2.1.2.min.js in Resources */,
+				D456ED074D0CC3CE5F00FB1566DE8CCD /* jquery.signalr-2.2.0.min.js in Resources */,
+				7AE631E7BD7857BA3A4D70A964EAAF16 /* jquery.signalr-2.2.1.min.js in Resources */,
+				654524B08BF8C060A98A8BECBC47A054 /* jquery.signalr-2.2.2.min.js in Resources */,
+				7231CFEF9F2099717FD80306B1A9B90C /* SwiftR.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540812B6F03F36D18D5109668D9D2D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51D8A054770E4851B21F8E2FF36E8527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5717F19619075389F35908C5132F74F9 /* SwiftR-dummy.m in Sources */,
+				C70172AECCB883A06069D6CB4F56C832 /* SwiftR.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2F5D132C0F8AE6C176E256FD6AE53A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185003EDF1CDB6A6062F0E532497D8DB /* Pods-SignalRDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9215FD32953E1E4E43896BC80155B80B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftR;
+			target = E242525A17C06AAB71CFB6A089530E6F /* SwiftR */;
+			targetProxy = 98E1F0DDB8792437042668A19FACC918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ABDD923CF5B0746168CDDB4C53EC25D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FA565522F57C6E871B4889C0749BF6 /* SwiftR.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftR/SwiftR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftR/SwiftR-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftR/SwiftR.modulemap";
+				PRODUCT_MODULE_NAME = SwiftR;
+				PRODUCT_NAME = SwiftR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		66E6A7458325D87D511ED0144EEF4846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D1EDF6C5505383554B537B46B1EC5B /* Pods-SignalRDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78F3339EFECC123D17F1F4902183FBD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310C8D818679AA3A97F6DA8899BE8BD2 /* Pods-SignalRDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8634416A8B79F84A447A7CF5720AB409 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FA565522F57C6E871B4889C0749BF6 /* SwiftR.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftR/SwiftR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftR/SwiftR-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftR/SwiftR.modulemap";
+				PRODUCT_MODULE_NAME = SwiftR;
+				PRODUCT_NAME = SwiftR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7F375C79A35F59AB9B8CA19DE7F59B /* Build configuration list for PBXNativeTarget "SwiftR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ABDD923CF5B0746168CDDB4C53EC25D /* Debug */,
+				8634416A8B79F84A447A7CF5720AB409 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91899A3F2F95902DBF09BB67BE3FD10A /* Build configuration list for PBXNativeTarget "Pods-SignalRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78F3339EFECC123D17F1F4902183FBD2 /* Debug */,
+				66E6A7458325D87D511ED0144EEF4846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
