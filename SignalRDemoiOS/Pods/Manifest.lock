@@ -2,15 +2,20 @@ PODS:
   - SwiftR (0.14.0)
 
 DEPENDENCIES:
-  - SwiftR
+  - SwiftR (from `https://github.com/RadyaAlbasha/SwiftR.git`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - SwiftR
+EXTERNAL SOURCES:
+  SwiftR:
+    :git: https://github.com/RadyaAlbasha/SwiftR.git
+
+CHECKOUT OPTIONS:
+  SwiftR:
+    :commit: 38b97dd3385972efd6745860803b480d28117826
+    :git: https://github.com/RadyaAlbasha/SwiftR.git
 
 SPEC CHECKSUMS:
-  SwiftR: 38aa6ed938f1a57ae030ed99e15455d58e008615
+  SwiftR: c2fb196463c35bde6d340796ae5a51663dad6bd8
 
-PODFILE CHECKSUM: ae30ec28e39691a8ce2db291d56535669308865d
+PODFILE CHECKSUM: e7f614966be51c9da1314a1213a21c2adb551c95
 
 COCOAPODS: 1.7.5

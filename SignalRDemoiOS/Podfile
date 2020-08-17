@@ -6,5 +6,5 @@ target 'SignalRDemo' do
   use_frameworks!
 
   # Pods for SignalRDemo
-	pod 'SwiftR'
+	pod 'SwiftR', :git => 'https://github.com/RadyaAlbasha/SwiftR.git'
 end
