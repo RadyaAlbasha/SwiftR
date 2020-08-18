@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B482B9114ED39F9F2889911 /* Pods_SignalRDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45DFBBCE095E705F46C1771 /* Pods_SignalRDemo.framework */; };
 		CA00CD2224EA67EA009B0686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA00CD2124EA67EA009B0686 /* AppDelegate.swift */; };
 		CA00CD2424EA67EA009B0686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA00CD2324EA67EA009B0686 /* SceneDelegate.swift */; };
 		CA00CD2624EA67EA009B0686 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA00CD2524EA67EA009B0686 /* ViewController.swift */; };
@@ -18,9 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D353BA3E41592FAF769D9EB /* Pods-SignalRDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalRDemo.release.xcconfig"; path = "Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo.release.xcconfig"; sourceTree = "<group>"; };
-		625A354B2B5C930D43229CDB /* Pods-SignalRDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignalRDemo.debug.xcconfig"; path = "Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A45DFBBCE095E705F46C1771 /* Pods_SignalRDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignalRDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA00CD1E24EA67EA009B0686 /* SignalRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignalRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA00CD2124EA67EA009B0686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA00CD2324EA67EA009B0686 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,28 +33,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B482B9114ED39F9F2889911 /* Pods_SignalRDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82CA384883AD077B2C06CC46 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A45DFBBCE095E705F46C1771 /* Pods_SignalRDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CA00CD1524EA67EA009B0686 = {
 			isa = PBXGroup;
 			children = (
 				CA00CD2024EA67EA009B0686 /* SignalRDemo */,
 				CA00CD1F24EA67EA009B0686 /* Products */,
 				E0CD45AA51E062F98B18F641 /* Pods */,
-				82CA384883AD077B2C06CC46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +74,6 @@
 		E0CD45AA51E062F98B18F641 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				625A354B2B5C930D43229CDB /* Pods-SignalRDemo.debug.xcconfig */,
-				1D353BA3E41592FAF769D9EB /* Pods-SignalRDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -101,11 +85,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA00CD3224EA67EB009B0686 /* Build configuration list for PBXNativeTarget "SignalRDemo" */;
 			buildPhases = (
-				EB452111CB1A28CBA86F1D06 /* [CP] Check Pods Manifest.lock */,
 				CA00CD1A24EA67EA009B0686 /* Sources */,
 				CA00CD1B24EA67EA009B0686 /* Frameworks */,
 				CA00CD1C24EA67EA009B0686 /* Resources */,
-				5A9054EE76A9AA34AB53A162 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,48 +143,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5A9054EE76A9AA34AB53A162 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignalRDemo/Pods-SignalRDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB452111CB1A28CBA86F1D06 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SignalRDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA00CD1A24EA67EA009B0686 /* Sources */ = {
@@ -354,7 +294,6 @@
 		};
 		CA00CD3324EA67EB009B0686 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 625A354B2B5C930D43229CDB /* Pods-SignalRDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -373,7 +312,6 @@
 		};
 		CA00CD3424EA67EB009B0686 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D353BA3E41592FAF769D9EB /* Pods-SignalRDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
